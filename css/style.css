@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+
+.section-hero {
+  padding: 9.6rem;
+  background-color: #fdf2e9;
+}
+
+hero {
+  max-width: 130rem;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 8rem;
+}
+
+.hero-left-text-box {
+  margin-bottom: 7rem;
+}
+
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-right-img {
+  width: 100%;
+}
+
+.hero-heading {
+  font-size: 5.4rem;
+  margin-bottom: 3rem;
+  color: #333;
+}
+
+.hero-summary {
+  font-size: 2.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  border-radius: 0.9rem;
+  font-size: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.mr-2 {
+  margin-right: 2rem;
+}
+
+.btn-focus:link,
+.btn-focus:visited {
+  background-color: #cf711f;
+  color: #fff;
+}
+
+.btn-focus:hover,
+.btn-focus:active {
+  background-color: #b8651b;
+}
+
+.btn-secondary:link,
+.btn-secondary:visited {
+  background-color: #fff;
+  color: black;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: #fdf2e9;
+  /* Trick to add border inside */
+  box-shadow: inset 0 0 0 3px #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fdf2e9;
+  padding: 4rem;
+  padding-bottom: 0;
+}
+
+.omnifood-logo {
+  height: 2.8rem;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 3.2rem;
+}
+
+.header-nav ul li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-nav ul a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 5100;
+}
+
+.hero-left-customers {
+  margin-top: 10rem;
+  display: flex;
+  align-items: center;
+}
+
+.cust-img {
+  height: 5.2rem;
+  border-radius: 50%;
+  margin-right: -1.5rem;
+  border: 3px solid #fdf2e9;
+}
+
+.bluff {
+  margin-left: 3.2rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.bluff span {
+  color: #b8651b;
+}
