@@ -406,6 +406,26 @@ hero {
   height: 2.4rem;
 }
 
+.meals-see-all {
+  grid-column: 2/3;
+  justify-self: center;
+  display: inline-block;
+}
+
+.meals-see-all:link,
+.meals-see-all:visited {
+  color: #e67e22;
+  text-decoration: none;
+  font-size: 1.8rem;
+  border-bottom: 1px solid currentColor;
+  transition: all 0.3s;
+}
+
+.meals-see-all:hover,
+.meals-see-all:active {
+  border-bottom: 1px solid transparent;
+}
+
 /*============================*/
 /* Testimonials Section  */
 /*============================*/
@@ -431,6 +451,7 @@ hero {
 .customer-image {
   width: 6.4rem;
   border-radius: 50%;
+  margin-bottom: 1.2rem;
 }
 
 .customer-testimonial {
