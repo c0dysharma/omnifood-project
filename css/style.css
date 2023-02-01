@@ -584,7 +584,7 @@ hero {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 6.4rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 14.4rem;
 }
 
 .feature-icon {
@@ -617,7 +617,7 @@ hero {
   display: grid;
   grid-template-columns: 2fr 1fr;
   align-items: center;
-  margin-bottom: 9.6rem;
+  margin-bottom: 14.4rem;
   background-color: #e67e22;
   padding: 0;
   border-radius: 11px;
@@ -700,4 +700,75 @@ hero {
   background-position: center;
   display: block;
   height: 100%;
+}
+
+/*============================*/
+/* CTA Section  */
+/*============================*/
+
+.footer-section {
+  border-top: 1px solid #eee;
+  padding: 12.8rem 0;
+}
+
+.footer-details {
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  column-gap: 9.6rem;
+}
+
+.footer-col1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-social-medias {
+  display: flex;
+  gap: 2.4rem;
+  margin-top: 2.4rem;
+}
+
+.social-media-logo {
+  height: 2rem;
+  width: 2rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  color: #767676;
+  margin-top: auto;
+}
+
+.footer-el-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+address {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.footer-address {
+  margin-bottom: 2.4rem;
+}
+
+.footer-ul {
+  list-style: none;
+  display: flex;
+
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-ul a,
+address a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #767676;
+  transition: all 0.3s;
 }
